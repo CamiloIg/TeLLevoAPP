@@ -5,12 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './conductor.page.html',
   styleUrls: ['./conductor.page.scss'],
 })
-export class ConductorPage {
-  conductor = {
-    costo: 0,
-    capacidad: 0,
-    viajesAgendados: []
-  };
+export class ConductorPage implements OnInit {
   constructor() { }
 
   ngOnInit() {
