@@ -21,6 +21,15 @@ const routes: Routes = [
     path: 'respass',
     loadChildren: () => import('./respass/respass.module').then( m => m.RespassPageModule)
   },
+  {
+    path: 'conductor',
+    loadChildren: () => import('./conductor/conductor.module').then( m => m.ConductorPageModule)
+  },
+  {
+    path: 'pasajero',
+    loadChildren: () => import('./pasajero/pasajero.module').then( m => m.PasajeroPageModule)
+  }
+
 ];
 
 @NgModule({

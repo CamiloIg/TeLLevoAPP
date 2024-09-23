@@ -7,13 +7,11 @@ import { Router } from '@angular/router';
   styleUrls: ['./respass.page.scss'],
 })
 export class RespassPage implements OnInit {
-  message!:string;
-  username!: string;
   constructor(
     private router: Router
   ) { }
 
-  ngOnInit() {
+  ngOnInit(): void {
   }
  
   recuperar(){
